@@ -9,24 +9,33 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #010409;
+    /* background-color: #010409; */
+    background-color: rgb(2, 13, 32);
+    /* image? */
 }
 
 /* h1 {
     font-size: 100%;
 } */
 
+p{
+    padding-top: 6vh;
+}
+
 #main a{
     text-decoration: none;
-    
+}
+
+ul li {
+    color: white;
 }
 
 .buttons {
     width: 70%;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     /* padding: 5px; */
 }
@@ -35,27 +44,82 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 100px;
-    font-family: 'Acme', sans-serif;
+    width: 300px;
+    height: 150px;
+    opacity: 90%;
+    /* font-family: 'Prompt', sans-serif; */
+    font-family: "Lucida Console", Monaco, monospace;
     font-size: 200%;
-    /* background-color: rgb(5, 5, 54); */
-    background-color: #0d1117;
+    /* background-color: #1fdef2; */
+    background-image: linear-gradient(180deg, #1fdef2, white);
     border-radius: 25px;
-    color: white;
+    color: black;
     padding: 1% 2%;
     text-align: center;
     /* flex: 1; */
-    margin: 5px;
+    margin: 10px;
     
 }
 
+.btn:hover {
+    /* background-color: black; Green */
+    background-image: linear-gradient(180deg, rgb(2, 13, 32),rgb(2, 13, 32));
+    color: white;
+    border: 2px solid #1fdef2;
+    opacity: 100%;
+  }
 #header{
     margin: 1% 0;
-    display:flex;
-    justify-content: center;
+    padding: 0%;
+    text-align: center;
+    /* display:flex; */
+    /* justify-content: center; */
     color: white;
-    font-family: 'Prompt','Sans-serif';
-    font-size: 225%
+    font-family: "Lucida Console", Monaco, monospace;
+
+}
+#header h2{
+    font-size: 300%;
+    margin-top: 75px;
+}
+.navbar{
+    font-size: 150%;
+    color:#010409;
+    background-color: #1fdef2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li{
+    color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-right{
+    display: flex;
+    /* justify-content: right; */
+    margin: 0 1%;
+}
+
+.navbar-logo li {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.navbar-right li{
+    font-weight: bold;
+    margin: 10px
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+/*media queries*/
+
+@media screen and (max-width: px){
 
 }
