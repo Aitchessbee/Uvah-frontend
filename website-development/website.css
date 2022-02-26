@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+
+.website-container{
+    display: flex;
+}
+.button-webd {
+    background-color: #555555;
+}

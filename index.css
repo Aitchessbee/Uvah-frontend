@@ -1,0 +1,61 @@
+/* Promt font import */
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+/* Acme font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Prompt&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #010409;
+}
+
+/* h1 {
+    font-size: 100%;
+} */
+
+#main a{
+    text-decoration: none;
+    
+}
+
+.buttons {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    font-family: 'Acme', sans-serif;
+    font-size: 200%;
+    /* background-color: rgb(5, 5, 54); */
+    background-color: #0d1117;
+    border-radius: 25px;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    /* flex: 1; */
+    margin: 5px;
+    
+}
+
+#header{
+    margin: 1% 0;
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Prompt','Sans-serif';
+    font-size: 225%
+
+}
