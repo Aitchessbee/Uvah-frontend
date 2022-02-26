@@ -31,7 +31,8 @@ html {
   }
   
   body {
-    font-family: "Inter UI", system-ui;
+    /* font-family: "Inter UI", system-ui; */
+    font-family: "Lucida Console", Monaco, monospace !important;
     color: var(--black);
     background: var(--black);
   }
@@ -74,7 +75,7 @@ html {
   }
   .list__label {
     font-size: 11px;
-    opacity: 0.6;
+    /* opacity: 0.6; */
   }
   .list__row {
     background: var(--grey-7);
@@ -136,7 +137,9 @@ html {
   .overlay.is-open {
     display: block;
   }
-  
+  /* .wrapper{
+      margin-top: 10%;
+  } */
   .sidebar {
     position: fixed;
     background: white;
@@ -259,3 +262,59 @@ html {
       left: 0;
     }
   }
+
+  .navbar{
+    font-size: 150%;
+    color:white;
+    background-color: rgb(231, 235, 13);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar li{
+    list-style:none;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-right{
+    display: flex;
+    justify-content: right;
+    margin: 2vh 2vw 0vh 0vw;
+}
+
+.navbar-logo li{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.navbar-right li{
+    font-weight: bold;
+    margin: 10px
+}
+
+.navbar a:hover {
+    color: rgb(17, 203, 228);
+}
+
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+a:hover{
+    color:white !important;
+}
+.main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 15vh;
+}

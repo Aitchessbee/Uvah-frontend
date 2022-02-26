@@ -58,6 +58,7 @@ p{
     background-color: rgb(59, 18, 153);
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
 }
 .navbar li{
@@ -75,9 +76,9 @@ p{
     margin: 2vh 2vw 0vh 0vw;
 }
 
-.navbar-logo li {
+.navbar-logo li{
     font-weight: bold;
-    margin: 10px;
+    margin: 5px;
 }
 
 .navbar-right li{

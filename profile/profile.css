@@ -9,11 +9,11 @@
 body{
     margin:0px;
     background-color: #262626;
-    user-select: none;
-background-image:url("https://i.pinimg.com/originals/f2/dd/65/f2dd65f0592f39e95f1f4bce1f97f3ee.jpg");
-background-repeat:no-repeat;
-background-size:0px;
-background-position:cover;
+    user-select: none;  
+    background-image:url("https://i.pinimg.com/originals/f2/dd/65/f2dd65f0592f39e95f1f4bce1f97f3ee.jpg");
+    background-repeat:no-repeat;
+    background-size:0px;
+    background-position:cover;
 }
 .menu{
     max-width:100%;

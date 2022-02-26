@@ -106,7 +106,7 @@ ul li {
 
 .navbar-logo li {
     font-weight: bold;
-    margin: 10px;
+    margin: 5px;
 }
 
 .navbar-right li{
@@ -137,6 +137,6 @@ ul li {
 	/* box-shadow: 2px 2px 3px #999; */
 }
 
-.my-float{
-	margin-top:22px;
-}
+/* .discord{
+    
+} */
