@@ -1,0 +1,180 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0;
+    border-radius:20px;
+}
+
+body{
+    margin:0px;
+    background-color: #262626;
+    user-select: none;
+background-image:url("https://i.pinimg.com/originals/f2/dd/65/f2dd65f0592f39e95f1f4bce1f97f3ee.jpg");
+background-repeat:no-repeat;
+background-size:0px;
+background-position:cover;
+}
+.menu{
+    max-width:100%;
+    height: 60px;
+    margin:auto;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    background-color:#212121;
+}
+.pencere{
+    width: 600px;
+    border:1px solid #3333;
+    padding: 10px;
+    min-height: 1300px;
+    border-radius: 10px;
+    max-height: auto;
+    margin:auto;
+    background-color:#3b3b3b;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.profil{
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+    position: sticky;
+    color:white;
+    
+    overflow: hidden;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    top:80px;
+    margin:auto;
+    text-align: center;
+    margin-top:40px;
+    margin-left: 0px;
+    background-color:#3b3b3b;
+}
+#kap{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+}
+.ikon{
+    width: 37px;
+    float: left;
+    margin-top:10px;
+    margin-left:200px;
+}
+.arama{
+    width: 250px;
+    height: 27px;
+    outline: none;
+    margin-top: 10px;
+    font-size: 13px;
+    border:none;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: #eef3f8;
+    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-search-strong-256.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 10px;
+    padding-left: 35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    transition-property: padding-left, width, font-size, color;
+    transition-duration: 0.3s;
+}
+.arama:focus{
+    padding-left: 55px;
+    color:grey;
+    width: 330px;
+    font-size: 16px;
+    border:0.3px solid lightgrey;
+}
+.kapak{
+    width: 100%;
+    height: 70px;
+    background-image: url("https://marketplace.canva.com/EAD29gI7er8/2/0/800w/canva-swirling-stars-and-space-video-zoom-virtual-background-I_B0jpKq2ug.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.devrim{
+    width: 100px;
+    position: relative;
+    border-radius: 50%;
+    top:-45px;
+    cursor: pointer;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: -35px;
+    right: 0px;
+}
+.isim{
+    cursor: pointer;
+    display: inline;
+    color:white;
+}
+.isim:hover{
+    text-decoration: underline;
+}
+.turkej{
+    font-size: 12px;
+    cursor: default;
+    color:lightgrey;
+}
+.iletisim{
+    width: auto;
+    height:100%;
+    background-color:#eef3f8;
+    margin-top:95px;
+    text-align: center;
+}
+.sayfalar{
+    width: 40px;
+    border-radius: 50%;
+filter: drop-shadow(0px 0px 5px white) invert(50%);
+    transition-property: filter;
+    transition-duration: 0.4s;
+}
+.sayfalar:hover{
+    filter: drop-shadow(0px 0px 5px white) invert(0%);
+}
+.pp{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.paylasim{
+    max-width:70%;
+    min-width:70%;
+    margin-right: 20px;
+    max-height: 20px;
+    border:1px solid #3333;
+    min-height: 20px;
+    border-radius: 40px;
+    font-size: 15px;
+    outline: none;
+    margin-top:10px;
+    padding: 15px;
+}
+.no{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#eef3f8;
+    margin-top:400px;
+}
+#galiba{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#eef3f8;
+    margin-top:800px;
+cursor:pointer;
+}

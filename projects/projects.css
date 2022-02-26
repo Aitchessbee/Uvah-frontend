@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 13, 32);
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#1fdef2;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	/* box-shadow: 2px 2px 3px #999; */
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+
+
+.align-project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25vw;
+    /* margin-right: 10vw; */
+}
+
+.cards-flex{
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+    padding: 10px;
+}
+
+.project-heading{
+    font-size: 150%;
+    margin: 2% 0;
+}
+.sexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    opacity: 90%;
+    
+    /* font-family: 'Prompt', sans-serif; */
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 120%;
+    height: fit-content;
+    padding-bottom: 2vh;
+    /* background-color: #1fdef2; */
+    background-image: linear-gradient(180deg, rgb(2, 13, 32),rgb(2, 13, 32));
+    border: 2px solid #1fdef2;
+    border-radius: 25px;
+    color: white;
+    /* padding: 10vh 10vw; */
+    text-align: center;
+    /* flex: 1; */
+    margin-top:5vh;
+    margin-bottom: 5vh;
+    align-content:center;
+}
+.sexy h1{
+    font-size: medium;
+}
+a{
+    color: pink;
+}
+a:hover{
+    color: white;
+}
+
+.main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15vw;
+    margin-right: 15vh;
+}
+
+.navbar{
+    font-size: 150%;
+    color:#010409;
+    background-color: #1fdef2;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+.navbar li{
+    color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+    margin-top: 1.5vh;
+    margin-left:1vw;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-right{
+    display: flex;
+    /* justify-content: right; */
+    margin: 0 1%;
+}
+
+.navbar-logo{
+    margin: 0;
+    padding: 0;
+}
+.navbar-logo li {
+    font-weight: bold;
+}
+
+.navbar-right li{
+
+    font-weight: bold;
+    margin: 10px
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#heading-id{
+    padding-top: 10vh;
+}

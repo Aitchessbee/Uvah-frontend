@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(2, 13, 32);
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+    margin-bottom: 10vh;
+    margin-top:15vh;
+}
+.pagecontent{
+    margin: 20vh;
+}
+p{
+    text-align: justify;
+    font-size: 150%;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+.buttons-webd{
+    display: flex;
+    justify-content: center;
+    opacity: 90%;
+    font-size: 200%;
+    
+}
+.btn-webd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    /* background-color: #555555; */
+    /* background-color: rgb(59, 18, 153); */
+    background-image: linear-gradient(180deg, rgb(59, 18, 153),rgb(122, 91, 194));
+    width: 20%;
+    height: 150px;
+    color: white;
+    margin: 6%;
+    border-radius: 25px;
+}
+
+.btn-webd:hover{
+    background-image: linear-gradient(180deg, rgb(2, 13, 32),rgb(2, 13, 32));
+    color: white;
+    border: 2px solid rgb(59, 18, 153);
+    opacity: 100%;
+}
+
+.navbar{
+    font-size: 150%;
+    color:white;
+    background-color: rgb(59, 18, 153);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li{
+    list-style:none;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-right{
+    display: flex;
+    justify-content: right;
+    margin: 2vh 2vw 0vh 0vw;
+}
+
+.navbar-logo li {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.navbar-right li{
+    font-weight: bold;
+    margin: 10px
+}
+
+.navbar a:hover {
+    color: rgb(17, 203, 228);
+}
+
+
+a{
+    color: white;
+}
+a:hover{
+    color:white;
+}

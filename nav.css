@@ -1,0 +1,38 @@
+/* navbar waali css */
+.navbar{
+    font-size: 150%;
+    color:#010409;
+    background-color: #1fdef2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	text-decoration: none;
+}
+.navbar li{
+    color: black;
+    list-style: none;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-right{
+    display: flex;
+    /* justify-content: right; */
+    margin: 0 1%;
+}
+
+.navbar-logo li {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.navbar-right li{
+    font-weight: bold;
+    margin: 10px
+}
+
+.navbar a:hover {
+    color: white;
+}
