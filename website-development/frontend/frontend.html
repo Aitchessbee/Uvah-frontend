@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="frontend.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script href="ratings.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -14,21 +16,35 @@
                 <li><a href="#">UVAH</a></li>
             </ul>
             <ul class="navbar-right">
-                <li><a href="#">Roadmap</a></li>
-                <li><a href="projects/projects.html">Projects</a></li>
-                <li><a href="#">Ranking</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="../../index.html">Roadmap</a></li>
+                <li><a href="../../projects/projects.html">Projects</a></li>
+                <li><a href="../../ranking/ranking.html">Ranking</a></li>
+                <li><a href="../../profile/profile.html">Profile</a></li>
             </ul>
         </div>
     </nav>
-    <h1>Frontend</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis placeat provident, aliquid, fugit odio quae enim possimus dolorem dolores officia, incidunt aperiam eos! Fugit, porro dicta! Cupiditate vitae, non praesentium, amet ratione aut eligendi dolore corrupti earum, quos maiores tempore adipisci placeat ea iusto repudiandae. Iure itaque atque sit!</p>
+    <div class="pagecontent">
+    <h1>Frontend 👨‍💻</h1>
+    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis placeat provident, aliquid, fugit odio quae enim possimus dolorem dolores officia, incidunt aperiam eos! Fugit, porro dicta! Cupiditate vitae, non praesentium, amet ratione aut eligendi dolore corrupti earum, quos maiores tempore adipisci placeat ea iusto repudiandae. Iure itaque atque sit!</p>
     <div class="topic-section">
         <ul>
                 <li class="topic">1. HTML</li>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, modi.</p>
-                <ul>
-                    <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">HTML Tutorial for Beginners: HTML Crash Course [2021]</a> - Programming with Mosh</li>
+                <ul class="links">
+                    <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">HTML Tutorial for Beginners: HTML Crash Course [2021]</a> - Programming with Mosh 
+                        <span class="star-widget">
+                            <input type="radio" name="rate" id="rate-5">
+                            <label for="rate-5" class="fas fa-star"></label>
+                            <input type="radio" name="rate" id="rate-4">
+                            <label for="rate-4" class="fas fa-star"></label>
+                            <input type="radio" name="rate" id="rate-3">
+                            <label for="rate-3" class="fas fa-star"></label>
+                            <input type="radio" name="rate" id="rate-2">
+                            <label for="rate-2" class="fas fa-star"></label>
+                            <input type="radio" name="rate" id="rate-1">
+                            <label for="rate-1" class="fas fa-star"></label>
+                        </span>
+                    </li>
                     <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">HTML Crash Course For Absolute Beginners</a> - Traversy Media</li>
                     <li><a href="https://www.youtube.com/watch?v=916GWv2Qs08">HTML Tutorial - Website Crash Course for Beginners (2021)</a> - freeCodeCamp.org</li>
                     <li>Link 4</li>
@@ -39,7 +55,7 @@
         <ul>
             <li class="topic">2. CSS</li>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, modi.</p>
-                <ul>
+                <ul class="links">
                     <li><a href="https://www.youtube.com/watch?v=yfoY53QXEnI">CSS Crash Course For Absolute Beginners</a> - Traversy Media</li>
                     <li><a href=""></a></li>
                     <li>Link 3</li>
@@ -51,7 +67,7 @@
         <ul>
             <li class="topic">3. Bootstrap</li>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, modi.</p>
-                <ul>
+                <ul class="links">
                     <li><a href="https://www.youtube.com/watch?v=yfoY53QXEnI">CSS Crash Course For Absolute Beginners</a> - Traversy Media</li>
                     <li><a href=""></a></li>
                     <li>Link 3</li>
@@ -63,7 +79,7 @@
         <ul>
             <li class="topic">4. Javascript</li>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, modi.</p>
-                <ul>
+                <ul class="links">
                     <li><a href="https://www.youtube.com/watch?v=yfoY53QXEnI">CSS Crash Course For Absolute Beginners</a> - Traversy Media</li>
                     <li><a href=""></a></li>
                     <li>Link 3</li>
@@ -75,13 +91,14 @@
         <ul>
             <li class="topic">5. JQuery</li>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, modi.</p>
-                <ul>
+                <ul class="links">
                     <li><a href="https://www.youtube.com/watch?v=yfoY53QXEnI">CSS Crash Course For Absolute Beginners</a> - Traversy Media</li>
                     <li><a href=""></a></li>
                     <li>Link 3</li>
                     <li>Link 4</li>
                 </ul>
         </ul>
+    </div>
     </div>
 </body> 
 </html>

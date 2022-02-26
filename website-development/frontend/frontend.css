@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(2, 13, 32);
+    /* background-color: rgb(2, 13, 32); */
+    background-color: rgb(24, 0, 4);
     color: white;
     font-family: "Lucida Console", Monaco, monospace;
 }
@@ -11,16 +12,33 @@ body{
     list-style: none;
 }
 
+.pagecontent{
+    margin: 100px auto; 
+    width: 80%;
+}
+
 .topic-section {
-    width: 50%;
+    width: 80%;
     border: solid 1px red;
     border-radius:25px;
     margin: 2% auto;
     background-color: rgb(36, 32, 47);
 }
 
-ul a {
-    color: pink
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 40px 0;
+}
+
+.topic-section a {
+    color: pink;
+    text-decoration: none;
 }
 
 ol li {
@@ -36,7 +54,7 @@ h1 {
 .navbar{
     font-size: 150%;
     color:white;
-    background-color: rgb(71, 1, 1);
+    background-color: rgb(146, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
@@ -68,5 +86,13 @@ h1 {
 }
 
 .navbar a:hover {
-    color: rgb(17, 203, 228);
+    color: pink;
+}
+
+.links li {
+    margin: 10px;
+}
+
+.star-widget {
+    list-style-type: none;
 }
