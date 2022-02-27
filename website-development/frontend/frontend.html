@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="frontend.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script href="ratings.js"></script>
+    <script src="ratings.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -31,23 +31,62 @@
                 <li class="topic">1. HTML</li>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, modi.</p>
                 <ul class="links">
-                    <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">HTML Tutorial for Beginners: HTML Crash Course [2021]</a> - Programming with Mosh 
-                        <span class="star-widget">
-                            <input type="radio" name="rate" id="rate-5">
+                    <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">HTML Tutorial for Beginners: HTML Crash Course [2021]</a> - Programming with Mosh
+                        <span class="star-widget widget1">
+                            <input type="radio" name="rate" id="rate-5" onclick="update_rating()">
                             <label for="rate-5" class="fas fa-star"></label>
-                            <input type="radio" name="rate" id="rate-4">
+                            <input type="radio" name="rate" id="rate-4" onclick="update_rating()">
                             <label for="rate-4" class="fas fa-star"></label>
-                            <input type="radio" name="rate" id="rate-3">
+                            <input type="radio" name="rate" id="rate-3" onclick="update_rating()">
                             <label for="rate-3" class="fas fa-star"></label>
-                            <input type="radio" name="rate" id="rate-2">
+                            <input type="radio" name="rate" id="rate-2" onclick="update_rating()">
                             <label for="rate-2" class="fas fa-star"></label>
-                            <input type="radio" name="rate" id="rate-1">
+                            <input type="radio" name="rate" id="rate-1" onclick="update_rating()">
                             <label for="rate-1" class="fas fa-star"></label>
                         </span>
                     </li>
-                    <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">HTML Crash Course For Absolute Beginners</a> - Traversy Media</li>
-                    <li><a href="https://www.youtube.com/watch?v=916GWv2Qs08">HTML Tutorial - Website Crash Course for Beginners (2021)</a> - freeCodeCamp.org</li>
-                    <li>Link 4</li>
+                    <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">HTML Crash Course For Absolute Beginners</a> - Traversy Media
+                        <span class="star-widget widget2">
+                            <input type="radio" name="rate1" id="rate-51" onclick="update_rating()">
+                            <label for="rate-51" class="fas fa-star"></label>
+                            <input type="radio" name="rate1" id="rate-41" onclick="update_rating()">
+                            <label for="rate-41" class="fas fa-star"></label>
+                            <input type="radio" name="rate1" id="rate-31" onclick="update_rating()">
+                            <label for="rate-31" class="fas fa-star"></label>
+                            <input type="radio" name="rate1" id="rate-21" onclick="update_rating()">
+                            <label for="rate-21" class="fas fa-star"></label>
+                            <input type="radio" name="rate1" id="rate-11" onclick="update_rating()">
+                            <label for="rate-11" class="fas fa-star"></label>
+                        </span>
+                    </li>
+                    <li><a href="https://www.youtube.com/watch?v=916GWv2Qs08">HTML Tutorial - Website Crash Course for Beginners (2021)</a> - freeCodeCamp.org
+                        <span class="star-widget widget3">
+                            <input type="radio" name="rate2" id="rate-52" onclick="update_rating()">
+                            <label for="rate-52" class="fas fa-star"></label>
+                            <input type="radio" name="rate2" id="rate-42" onclick="update_rating()">
+                            <label for="rate-42" class="fas fa-star"></label>
+                            <input type="radio" name="rate2" id="rate-32" onclick="update_rating()">
+                            <label for="rate-32" class="fas fa-star"></label>
+                            <input type="radio" name="rate2" id="rate-22" onclick="update_rating()">
+                            <label for="rate-22" class="fas fa-star"></label>
+                            <input type="radio" name="rate2" id="rate-12" onclick="update_rating()">
+                            <label for="rate-12" class="fas fa-star"></label>
+                        </span>
+                    </li>
+                    <li><a href="https://www.youtube.com/watch?v=916GWv2Qs08">HTML Tutorial - Website Crash Course for Beginners (2021)</a> - freeCodeCamp.org
+                        <span class="star-widget widget4">
+                            <input type="radio" name="rate3" id="rate-53" onclick="update_rating()">
+                            <label for="rate-53" class="fas fa-star"></label>
+                            <input type="radio" name="rate3" id="rate-43" onclick="update_rating()">
+                            <label for="rate-43" class="fas fa-star"></label>
+                            <input type="radio" name="rate3" id="rate-33" onclick="update_rating()">
+                            <label for="rate-33" class="fas fa-star"></label>
+                            <input type="radio" name="rate3" id="rate-23" onclick="update_rating()">
+                            <label for="rate-23" class="fas fa-star"></label>
+                            <input type="radio" name="rate3" id="rate-13" onclick="update_rating()">
+                            <label for="rate-13" class="fas fa-star"></label>
+                        </span>
+                    </li>
                 </ul>
         </ul>
     </div>
@@ -100,5 +139,6 @@
         </ul>
     </div>
     </div>
+
 </body> 
 </html>

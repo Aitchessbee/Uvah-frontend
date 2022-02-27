@@ -18,7 +18,7 @@ body{
 }
 
 .topic-section {
-    width: 80%;
+    width: 90%;
     border: solid 1px red;
     border-radius:25px;
     margin: 2% auto;
@@ -95,4 +95,33 @@ h1 {
 
 .star-widget {
     list-style-type: none;
+}
+
+input:checked ~ label{
+    color: #fd4;
+}
+
+.star-widget input:not(:checked) ~ label:hover,
+.star-widget input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+
+}
+
+/* input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+
+} */
+
+.star-widget input {
+    display: none;
+}
+
+.star-widget label{
+    font-size: 20px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    margin-top: -15px;
+    /* transition: all 0.2s ease; */
 }
