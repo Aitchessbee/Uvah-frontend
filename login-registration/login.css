@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#page-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+#login-btn{
+    background: white;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 8px 0;
+}
+#login-btn:hover{
+    background: rgb(0, 153, 204, 0.5);
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 8px 0;
+    cursor:pointer;
+}
+
+#userpic{
+    margin: 8px;
+}
+#login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+}
+input{
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+button{
+font-size: 18px;
+padding: 2px;
+}
+
+#bottom-text{
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+
+

@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(2, 13, 32);
+    /* background-color: rgb(2, 13, 32); */
+    background:linear-gradient( rgba(2, 13, 32,0.92), rgba(2, 13, 32,0.92) ), url('https://images.pexels.com/photos/315191/pexels-photo-315191.jpeg?auto=compress&cs=tinysrgb&w=1600');
     color: white;
     font-family: "Lucida Console", Monaco, monospace;
 }
@@ -96,4 +97,7 @@ a{
 }
 a:hover{
     color:white;
+}
+#webdcontent{
+    line-height: 100px;
 }

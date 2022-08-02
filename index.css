@@ -11,7 +11,12 @@ body{
     margin: 0;
     padding: 0;
     /* background-color: #010409; */
-    background-color: rgb(2, 13, 32);
+    /* background-color: rgba(2, 13, 32,1); */
+    background:linear-gradient( rgba(2, 13, 32,0.8), rgba(2, 13, 32,0.8) ), url('https://images.pexels.com/photos/315191/pexels-photo-315191.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    
+    /* url for space pic 'https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' */
+    /* cyberpunk alley https://images.pexels.com/photos/315191/pexels-photo-315191.jpeg?auto=compress&cs=tinysrgb&w=1600 */
+    background-size: cover;
     /* image? */
 }
 
